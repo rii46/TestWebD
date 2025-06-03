@@ -26,13 +26,13 @@ body {
 }
 
 .background1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/bg1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('bg1.jpg');
   box-sizing: border-box;
   background-size: cover;
 }
 
 .background2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/bg2.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('bg2.png');
   box-sizing: border-box;
   background-size: cover;
 }
