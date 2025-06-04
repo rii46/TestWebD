@@ -32,7 +32,7 @@ jam.innerHTML = `${hour}:${minutes}`
 const pengirim = "Riri";
 const nomorWa = "6281229807496" // awalan nomor 0 harus di awalin 62
 const textWa = "I'm don't love you, gausah banyak basa basi"
-const pesan = `itu artinya kamu adalah Dindindun Jerukk...Hhqhahaha garing`;
+const pesan = `Mata kering kecolok garpu, everything means nothing if i ain’t with u`;
 
 if (pengirim) {
   nama.innerHTML = pengirim;
@@ -58,7 +58,7 @@ hilang1.addEventListener('click', () => {
   Swal.fire({
     imageUrl: "stiker_mylove.gif",
     imageHeight: 120,
-    title: 'Sumimasen DinChan, tolongg input namamu dibawah ya',
+    title: 'Sumimasen DiniChan, tolongg input namamu dibawah ya',
     html: `<input type="text" id="login" class="swal2-input" placeholder="Isi Namamu Beb">`,
     confirmButtonText: 'Kirim',
     focusConfirm: false,
@@ -73,7 +73,7 @@ hilang1.addEventListener('click', () => {
     let i = 0;
     const speed = 50;
     const namaAwal = result.value.login.charAt(0)
-    let txt = `Oke jadi namamu kan ${result.value.login}, nah namamu berawal dari huruf ${namaAwal.toUpperCase()}, ${pesan}`;
+    let txt = `Hai ${result.value.login} aku ada kata" untukmu.`;
 
     const typeWriter = () => {
       if (i < txt.length) {
